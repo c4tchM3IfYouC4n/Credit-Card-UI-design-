@@ -3,7 +3,7 @@ body {
     height:100vh;
     display: flex;
     align-items: center;
-    background: url("background.png") no-repeat center; 
+    background: url("") no-repeat center; 
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden;
@@ -18,7 +18,7 @@ body::before{
     display :block;
     position: flex;
     inset: 0;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(19, 118, 248, 0.993);
 }
 
 .card{
@@ -27,14 +27,14 @@ body::before{
     justify-content: space-between;
     width:500px ;
     height:270px;
-    background: linear-gradient(-25deg, black,#444,black);
-    border-radius: 15px;
+    background: linear-gradient(-30deg,blue,rgba(250, 128, 234, 0.966),blue);
+    border-radius: 20px;
     color: white;
     position: relative;
     overflow: hidden;
-    text-shadow: 0 2px 0 black;
+    text-shadow: 0 2px 0 blue;
     padding:  1.5rem 2rem ;
-    box-shadow: 0 10px 50px -10px black;
+    box-shadow: 0 10px 50px -10px rgba(18, 119, 250, 0.95);
     animation: cardAnimation 1s alternate infinite;
 }
 
@@ -42,18 +42,18 @@ body::before{
     from {transform: translateY(-20px);}
 }
 
-.card::before{
+/* .card::before{
     content: '';
     display: block;
     position: absolute;
     width: 600px ;
     height: 600px;
     border-radius: 100%;
-    box-shadow: 0 0 50px rgba(38, 38, 38, .95) inset;
+    box-shadow: 0 0 50px rgba(18, 119, 250, 0.95) inset;
     top:1rem;
     left: 50%;
     transform: translateX(-50%);
-}
+} */
 .card-top , .card-bottom{
     display: flex;
     justify-content: space-between;
