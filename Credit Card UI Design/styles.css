@@ -27,7 +27,7 @@ body::before{
     justify-content: space-between;
     width:500px ;
     height:270px;
-    background: linear-gradient(-30deg,rgb(248, 248, 248),rgba(250, 128, 234, 0.966),rgb(135, 135, 250));
+    background: linear-gradient(-30deg,rgb(248, 248, 248),rgba(250, 128, 234, 0.966),blue);
     border-radius: 20px;
     color: purple;
     position: relative;
